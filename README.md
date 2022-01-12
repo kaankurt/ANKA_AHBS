@@ -24,4 +24,7 @@ Projemizde 10 Adet Modül bulunmaktadır ve haha bildir ekranı bulunmaktadır.
 
 Not: Bebek izlem ile Çocuk izlem Modülü ekranlarının içeriği birbirisinin aynısıdır yalnız bakanlığa bu izlemleri gönderirken izlem kodları 
 farklı olması için farklı sayfalarda bulunmaktadırlar. İleride içeriğini değiştirmek istenirse bu şekildeki yapı daha verimli olacaktır.
+ 
+ Kullanıcı Giriş Ekranı
+ Not: Resimde tasarım hatası gibi duruyor yalnız kullanış esnasında belirgin giriş alanları
 ![Screenshot_0](https://user-images.githubusercontent.com/19650126/149046319-912b459f-6cc6-4e34-807c-4a01f3ba8983.png)
