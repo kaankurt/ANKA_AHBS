@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <head>
+        <title>ANKA_AHBS</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div>ANKA<span>AHBS</span></div>
+		</div>
+		<br>
+		<div class="login">
+				<input type="text" placeholder="Kullanıcı Adı" name="user" id="user"><br>
+				<input type="password" placeholder="Şifre" name="password" id="password"><br>
+				<input type="button" value="Giriş" onclick="gonder()">
+		</div>
+        <script>
+            function gonder(){
+                var ad = "Abdullah";
+                var sifre = "123";
+                var user  = document.getElementById("user").value;
+                var password = document.getElementById("password").value;
+                    if(ad == user && sifre == password){
+                        window.open('anasayfa.html','_self');
+                    }else{
+                        alert("Kullanıcı Adı veya Şifre Yanlış!");
+                    }              
+            }
+        </script>
+    </body>
+</html>
